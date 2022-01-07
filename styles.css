@@ -54,6 +54,16 @@ body {
   color: var(--very-dark-magenta);
 }
 
+.box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.box p {
+  padding-left: 10px;
+}
+
 .lower {
   display: flex;
 }
@@ -84,4 +94,23 @@ body {
 .testimonial .testi {
   color: var(--white);
   padding-top: 10px;
+}
+
+@media(max-width:1024px) {
+  .upper {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .lower {
+    display: flex;
+    flex-direction: column;
+  }
 }
