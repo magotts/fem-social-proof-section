@@ -53,3 +53,14 @@ body {
   font-weight: 700;
   color: var(--very-dark-magenta);
 }
+
+.lower {
+  display: flex;
+}
+
+.lower .testimonial {
+  background-color: var(--very-dark-magenta);
+  border-radius: 8px;
+  padding: 10px;
+  margin: 15px;
+}
