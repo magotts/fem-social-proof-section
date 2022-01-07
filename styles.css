@@ -64,3 +64,24 @@ body {
   padding: 10px;
   margin: 15px;
 }
+
+.icon {
+  border-radius: 50%;
+  width: auto;
+  height: 50px;
+}
+
+.testimonial .name {
+  color: var(--white);
+  font-size: 15px;
+  font-weight: 500;
+}
+
+.testimonial .status {
+  color: var(--soft-pink);
+}
+
+.testimonial .testi {
+  color: var(--white);
+  padding-top: 10px;
+}
