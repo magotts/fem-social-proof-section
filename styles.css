@@ -57,6 +57,7 @@ body {
 .content {
   max-width: 600px;
   padding-right: 100px;
+  text-align: left;
 }
 .content h1 {
   font-weight: 700;
