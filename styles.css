@@ -17,8 +17,12 @@
 body {
   font-family: 'Spartan', sans-serif;
   font-size: 15px;
-  background-image: url("./images/bg-pattern-bottom-desktop.svg");
+  text-align: center;
+  padding-top: 5rem;
+  background-image: url("./images/bg-pattern-top-desktop.svg"), url("./images/bg-pattern-bottom-desktop.svg");
+  background-position: top left, bottom right;
   background-repeat: no-repeat;
+  background-size: 50% 50%;
 }
 
 .container {
@@ -163,6 +167,9 @@ body {
 
   .upper .rating .box {
     transform: none;
-   
+  }
+
+  .lower .anne {
+    margin-bottom: 50px;
   }
 }
